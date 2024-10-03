@@ -5,7 +5,7 @@ const Featured = () => {
     <div className="bg-zinc-900 w-full py-20 text-[#F9EFDB]">
       <div className="w-full px-20 border-b-[1px] pb-20">
         <h1 className="xl:text-8xl md:text-7xl sm:text-4xl">
-          Featured Projects.
+          What we do.
         </h1>
       </div>
       <div>

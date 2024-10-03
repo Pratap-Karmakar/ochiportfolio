@@ -42,7 +42,7 @@ const About = () => {
         >
           <h2 className="bg-clip-text text-zinc-900 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-sans py-4 relative z-20 font-bold tracking-tight uppercase">
             Welcome to <br />
-            <span className="text-[#A87C7C]">NAIYO24 PRIVATE LIMITED</span>
+            <span className="text-[#FF8343]">NAIYO24 PRIVATE LIMITED</span>
           </h2>
         </motion.div>
 
@@ -72,7 +72,7 @@ const About = () => {
             initial="hidden"
             animate={inView ? "show" : "hidden"}
             variants={fadeIn({ direction: "right", delay: 0.4 })} // Enhanced fadeIn with 'right' direction and delay
-            className="w-full text-sm sm:text-base md:text-lg lg:text-xl text-neutral-700 dark:text-neutral-400 mt-4"
+            className="w-full text-sm sm:text-base md:text-lg lg:text-xl text-zinc-500 mt-4"
           >
             At NAIYO24 PRIVATE LIMITED, we&apos;re committed to transforming your
             digital dreams into reality. As a leading provider of online
