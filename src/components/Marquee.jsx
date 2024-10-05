@@ -1,5 +1,4 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 
 const MarqueeItem = ({ children }) => (
   <motion.div
@@ -15,11 +14,11 @@ const MarqueeItem = ({ children }) => (
   >
     {children}
   </motion.div>
-)
+);
 
 const Marquee = () => {
   return (
-    <div className="w-full py-6 sm:py-10 md:py-16 lg:py-20 bg-[#664343] overflow-hidden">
+    <div className="relative h-full w-full py-6 sm:py-10 md:py-16 lg:py-20 bg-[#664343] overflow-hidden">
       <div className="border-t-2 border-b-2 border-zinc-900 flex whitespace-nowrap">
         <div className="flex animate-marquee text-[#F9EFDB]">
           <MarqueeItem>
@@ -46,9 +45,8 @@ const Marquee = () => {
           </MarqueeItem>
         </div>
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Marquee
+export default Marquee;

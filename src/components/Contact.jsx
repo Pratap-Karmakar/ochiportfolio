@@ -3,21 +3,21 @@ import { motion } from 'framer-motion';
 
 const Contact = () => {
   return (
-    <div className="w-full h-[50vh] md:h-screen bg-[#6256CA] text-[#FFF5CD]">
-      <div className="px-4 pt-10 md:px-10 lg:px-20 md:pt-20">
+    <div  className="w-full h-[60vh] md:h-screen bg-[#6256CA] text-[#FFF5CD]">
+      <div className="px-4 pt-14 md:px-10 lg:px-20 md:pt-20">
         {/* Text */}
         <div>
-          <p className="text-4xl md:text-7xl lg:text-9xl font-bold text-center py-2 md:py-4">
+          <p className="text-7xl md:text-7xl lg:text-9xl font-bold text-center py-2 md:py-4">
             Ready
           </p>
         </div>
         <div>
-          <p className="text-4xl md:text-7xl lg:text-9xl font-bold text-center py-2 md:py-4">
+          <p className="text-7xl md:text-7xl lg:text-9xl font-bold text-center py-2 md:py-4">
             To Start
           </p>
         </div>
         <div>
-          <p className="text-4xl md:text-7xl lg:text-9xl font-bold text-center py-2 md:py-4">
+          <p className="text-7xl md:text-7xl lg:text-9xl font-bold text-center py-2 md:py-4">
             The <span className="uppercase font-extrabold">Project?</span>
           </p>
         </div>
