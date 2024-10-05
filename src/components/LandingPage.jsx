@@ -1,8 +1,9 @@
+import React from "react";
 import { motion, useTransform } from "framer-motion";
-import { IoArrowForwardCircleOutline } from "react-icons/io5";
+import { IoArrowForwardCircleOutline } from "react-icons/io5";  // Ensure react-icons is installed
 
 export default function LandingPage({ scrollYProgress }) {
-  // Only apply scale and rotation to the LandingPage
+  // Apply scale and rotation effects based on scroll progress
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.95]);
   const rotate = useTransform(scrollYProgress, [0, 1], [0, -3]);
 

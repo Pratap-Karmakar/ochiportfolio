@@ -4,7 +4,7 @@ const Footer = () => {
 
   return (
     <motion.footer
-      className="text-[#FEFAE0] w-full min-h-screen bg-zinc-900 py-16 px-4 sm:px-6 lg:px-8 flex flex-col"
+      className="text-[#FEFAE0] w-full min-h-screen bg-zinc-900 py-28 px-4 sm:px-6 lg:px-8 flex flex-col"
     >
       <div className="max-w-7xl mx-auto flex-grow flex flex-col lg:flex-row gap-12 lg:gap-20">
         <div className="lg:w-1/2 flex flex-col justify-between">
